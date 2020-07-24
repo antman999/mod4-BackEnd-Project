@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+API Key = 9lEq58KfZuwxN19IVBGbr0SSUC8OzuZHWTGgMyn8QxdL8xeyWQ
+
+Secret = s0ricFR98JN0WujH7FhKI3SMkVYmPfGuWjySo922

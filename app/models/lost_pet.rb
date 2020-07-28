@@ -1,0 +1,3 @@
+class LostPet < ApplicationRecord
+
+end

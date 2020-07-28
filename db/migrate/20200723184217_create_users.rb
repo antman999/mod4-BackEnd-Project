@@ -13,7 +13,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.string :country
       t.string :city
       t.integer :zip
-      t.string :password
+      t.string :password_digest
       t.timestamps
     end
   end

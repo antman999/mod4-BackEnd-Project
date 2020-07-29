@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
       post '/login', to: 'users#create'
+      get '/autologin', to:'users#auto_login'
     end
   end
   namespace :api do

@@ -17,6 +17,11 @@ class Api::V1::UsersController < ApplicationController
   end
   end
 
+  def auto_login
+   user = User.find_by(id: request.headers['Authorization'])
+   render json: user
+  end
+
   private
   def user_params
     params.require(:user).permit!

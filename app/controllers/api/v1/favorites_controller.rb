@@ -11,6 +11,11 @@ class Api::V1::FavoritesController < ApplicationController
         render json: favorite, include: [:pet, :user]
     end
 
+    def show
+        favorite = Favorite.find(params[:id])
+        render json: favorite, include: [:pet, :user]
+    end
+
     private
 
     def favorite_params
